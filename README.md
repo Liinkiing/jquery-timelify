@@ -25,7 +25,7 @@ You can also customize what animations you prefer to use. When calling the **tim
 Available settings are : 
 
 | Settings  |Default value | Possible values |
-|---|
+|---|---|---|
 |  animLeft |bounceInLeft | any valid Animate.css animations
 |  animRight |bounceInRight | any valid Animate.css animations
 |  animCenter | bounceInUp | any valid Animate.css animations
