@@ -1,0 +1,29 @@
+{
+  "name": "timelify",
+  "title": "Timelify",
+  "description": "A little plugin to allow creation of timelines",
+  "keywords": [
+	"timeline",
+	"line",
+	"linking"
+  ],
+  "version": "1.0.0",
+  "author": {
+	"name": "Omar Jbara",
+	"email": "omar.jbara2@gmail.com",
+	"url": "https://github.com/Liinkiing"
+  },
+  "licenses": [
+	{
+	  "type": "MIT",
+	  "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+	}
+  ],
+  "bugs": "https://github.com/jquery/jquery-color/issues",
+  "homepage": "https://github.com/jquery/jquery-color",
+  "docs": "https://github.com/jquery/jquery-color",
+  "download": "http://code.jquery.com/#color",
+  "dependencies": {
+	"jquery": ">=1.5"
+  }
+}
