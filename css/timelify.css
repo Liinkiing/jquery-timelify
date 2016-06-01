@@ -139,6 +139,8 @@
           position: absolute;
           left: calc(50% - 4px);
           top: -12px; }
+        .timeline .timeline-items .timeline-item.centered::after {
+          display: none; }
         .timeline .timeline-items .timeline-item.centered:nth-of-type(2n+1) {
           background-color: #00acc1;
           color: white; }

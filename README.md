@@ -5,7 +5,6 @@ A little plugin I've made to create simple timeline
 
 Here is an example of what you can do with this plugin : 
 
-![](http://puu.sh/pd2dg/6f9688cce7.gif)
 
 ## Usage
 Simply clone this repository or download it to see an example of how your HTML structure should be.  
@@ -19,6 +18,18 @@ use the **timelify()** function.
 ## Customizing
 
 Because I'm using SCSS, you can easily custom the look and feel of your timeline. Simply edit variables in ![_variables.css](blob/master/css/components/timelify/_variables.scss) to change for example the color of block, or the color of the vertical bar and background of h2.
+
+You can also customize what animations you prefer to use. When calling the **timefly()** method, you can pass an object litteral to define settings.
+
+Available settings are : 
+
+| Settings  |Default value | Possible values |
+|---|
+|  animLeft |bounceInLeft | any valid Animate.css animations
+|  animRight |bounceInRight | any valid Animate.css animations
+|  animCenter | bounceInUp | any valid Animate.css animations
+
+Each of these settings will modify how left, right, and centered blocks will appear.
 
 ## Example
 
@@ -69,5 +80,16 @@ Suppose you have an HTML who looks like this :
 ```
 
 Simply do `$('.timeline').timelify()`
+
+Or if you want to customize, for example, how it appear from the right, and the center, you could do :
+
+```javascript
+
+    $('.timeline').timelify({
+        animRight: "fadeInRight",
+        animCenter: "zoomIn"
+    })
+
+```
 
 You have to keep the same HTML structure as the example above.
