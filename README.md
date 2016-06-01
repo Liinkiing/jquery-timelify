@@ -16,7 +16,11 @@ After you imported your stylesheets, juste import jQuery and **jquery.timelify.j
 Then, to initialize the plugin, you must have **jQuery**, then simply select your element (generally .timeline) and
 use the **timelify()** function.
 
-e.g
+## Customizing
+
+Because I'm using SCSS, you can easily custom the look and feel of your timeline. Simply edit variables in ![_variables.css](blob/master/css/components/timelify/_variables.scss) to change for example the color of block, or the color of the vertical bar and background of h2.
+
+## Example
 
 Suppose you have an HTML who looks like this : 
 
