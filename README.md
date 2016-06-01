@@ -10,6 +10,9 @@ Here is an example of what you can do with this plugin :
 ## Usage
 Simply clone this repository or download it to see an example of how your HTML structure should be.  
 
+You have to include the css files (**FontAwesome** is included). 
+After you imported your stylesheets, juste import jQuery and **jquery.timelify.js**, and you're ready !
+
 Then, to initialize the plugin, you must have **jQuery**, then simply select your element (generally .timeline) and
 use the **timelify()** function.
 
