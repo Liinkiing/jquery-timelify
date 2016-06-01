@@ -74,6 +74,12 @@
                 font-weight: 700;
             }
 
+            & time::before {
+                font-family: FontAwesome, sans-serif;
+                content: '\f017';
+                margin-right: 10px;
+            }
+
             &::before {
                 content: '';
                 width: 0;
@@ -197,7 +203,7 @@
                     width: 0;
                     height: 0;
                     position: absolute;
-                    left: calc(50% - 1.6px);
+                    left: calc(50% - 4px);
                     top: -12px;
                 }
 

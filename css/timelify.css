@@ -48,6 +48,10 @@
         visibility: hidden; }
       .timeline .timeline-items .timeline-item a {
         font-weight: 700; }
+      .timeline .timeline-items .timeline-item time::before {
+        font-family: FontAwesome, sans-serif;
+        content: '\f017';
+        margin-right: 10px; }
       .timeline .timeline-items .timeline-item::before {
         content: '';
         width: 0;
@@ -133,7 +137,7 @@
           width: 0;
           height: 0;
           position: absolute;
-          left: calc(50% - 1.6px);
+          left: calc(50% - 4px);
           top: -12px; }
         .timeline .timeline-items .timeline-item.centered:nth-of-type(2n+1) {
           background-color: #00acc1;
