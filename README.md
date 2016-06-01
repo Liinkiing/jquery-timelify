@@ -9,7 +9,8 @@ Here is an example of what you can do with this plugin :
 ## Usage
 Simply clone this repository or download it to see an example of how your HTML structure should be.  
 
-You have to include the css files (**FontAwesome** is included). 
+You have to include the css files ([FontAwesome](https://github.com/FortAwesome/Font-Awesome) is included). 
+I also use [Animate.css](https://github.com/daneden/animate.css), for providing these greate animations ! 
 After you imported your stylesheets, juste import jQuery and **jquery.timelify.js**, and you're ready !
 
 Then, to initialize the plugin, you must have **jQuery**, then simply select your element (generally .timeline) and
@@ -17,7 +18,7 @@ use the **timelify()** function.
 
 ## Customizing
 
-Because I'm using SCSS, you can easily custom the look and feel of your timeline. Simply edit variables in ![_variables.css](blob/master/css/components/timelify/_variables.scss) to change for example the color of block, or the color of the vertical bar and background of h2.
+Because I'm using SCSS, you can easily custom the look and feel of your timeline. Simply edit variables in ![_variables.css](css/components/timelify/_variables.scss) to change for example the color of block, or the color of the vertical bar and background of h2.
 
 You can also customize what animations you prefer to use. When calling the **timefly()** method, you can pass an object litteral to define settings.
 
