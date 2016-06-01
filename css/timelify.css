@@ -67,7 +67,7 @@
         position: absolute;
         top: -15px;
         border-radius: 100%;
-        left: calc(100% + 10.7%); }
+        left: calc(100% + 10.4%); }
       .timeline .timeline-items .timeline-item:nth-of-type(2n+1) {
         background-color: #00acc1;
         color: white; }
@@ -107,7 +107,7 @@
           position: absolute;
           top: -15px;
           border-radius: 100%;
-          left: calc(-8.78% - 15px); }
+          left: calc(-8.78% - 13px); }
         .timeline .timeline-items .timeline-item.inverted:nth-of-type(2n+1) {
           background-color: #00acc1;
           color: white; }
