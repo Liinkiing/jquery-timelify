@@ -18,7 +18,7 @@ use the **timelify()** function.
 
 ## Customizing
 
-Because I'm using SCSS, you can easily custom the look and feel of your timeline. Simply edit variables in ![_variables.css](blob/master/css/components/timelify/_variables.scss) to change for example the color of block, or the color of the vertical bar and background of h2.
+Because I'm using SCSS, you can easily custom the look and feel of your timeline. Simply edit variables in ![_variables.css](css/components/timelify/_variables.scss) to change for example the color of block, or the color of the vertical bar and background of h2.
 
 ## Example
 
