@@ -4,6 +4,7 @@ A little plugin I've made to create simple timeline
 ## Example 
 
 Here is an example of what you can do with this plugin : 
+![](http://puu.sh/pd2dg/6f9688cce7.gif)
 
 
 ## Usage
