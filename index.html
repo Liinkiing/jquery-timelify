@@ -119,8 +119,11 @@
 <script src="js/jquery.timelify.js"></script>
 <script>
 	$('.timeline').timelify({
-			animLeft: "fadeIn",
-		animCenter: "zoomIn"
+			animLeft: "fadeInLeft",
+		animCenter: "fadeInUp",
+		animRight: "fadeInRight",
+		animSpeed: 600,
+		offset: 300
 	});
 </script>
 
