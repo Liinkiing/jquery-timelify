@@ -30,6 +30,8 @@ Available settings are :
 |  animLeft |bounceInLeft | any valid Animate.css animations
 |  animRight |bounceInRight | any valid Animate.css animations
 |  animCenter | bounceInUp | any valid Animate.css animations
+|  animSpeed | 600 | duration of animation (in **ms**)
+|  offset | 150 | offset, in **px** at which blocks start to show
 
 Each of these settings will modify how left, right, and centered blocks will appear.
 
