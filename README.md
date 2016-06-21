@@ -14,7 +14,7 @@ You have to include the css files (![timelify.css](css/timelify.css) and [FontAw
 I also use [Animate.css](https://github.com/daneden/animate.css), for providing these greate animations !
 After you imported your stylesheets, juste import jQuery and **jquery.timelify.js**, and you're ready !
 
-Then, to initialize the plugin, you must have **jQuery**, then simply select your element (generally .timeline) and
+Then, to initialize the plugin, you must have **jQuery**, then simply select your element (generally `.timeline`) and
 use the **timelify()** function.
 
 ## Customizing
