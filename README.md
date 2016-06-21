@@ -10,7 +10,7 @@ Here is an example of what you can do with this plugin :
 ## Usage
 Simply clone this repository or download it to see an example of how your HTML structure should be.  
 
-You have to include the css files ([FontAwesome](https://github.com/FortAwesome/Font-Awesome) is included). 
+You have to include the css files (![timelify.css](css/timelify.css) and ([FontAwesome](https://github.com/FortAwesome/Font-Awesome), which comes bundled in this plugin). 
 I also use [Animate.css](https://github.com/daneden/animate.css), for providing these greate animations !
 After you imported your stylesheets, juste import jQuery and **jquery.timelify.js**, and you're ready !
 
